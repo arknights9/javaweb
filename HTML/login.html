@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录页面</title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+				font-family: "microsoft yahei";
+			}
+			html,boby{
+				background-image:url(img/background.png);
+				background-size:100% 100%;
+				height:100%;
+			}
+			.login{
+				position: absolute;
+				background-color: rgba(0,0,0,.6);
+				top: 25%;
+				left: 60%;
+				right: 10%;
+				bottom: 25%;
+				border-radius: 5ps;
+			}
+			.title,.u,.p,.l,.tips{
+				position: absolute;
+				width:100%;
+			}
+			input{
+				height: 35px;
+				border:0px;
+				border-radius: 5px;
+				width:80%;
+				padding-left:30px;
+				box-sizing: border-box;
+			}
+			.uname{
+				background:url(img/用户.png) no-repeat left;
+				background-color:rgba(255,255,255,1);
+				background-size:8%;
+			}
+			.pwd{
+				background:url(img/密码.png) no-repeat left;
+				background-color:rgba(255,255,255,1);
+				background-size:8%;
+			}
+			button{
+				background-color: #467FE6;
+				height: 35px;
+				width: 80%;
+				border: 0px;
+				border-radius: 5px;
+				color:#FFFFFF;
+				font-size: 16px;
+			}
+			.title{
+				top:0%;
+				bottom:76%;
+				text-align: center;
+				font-size:25px;
+				font-weight: bold;
+				padding-top:10px;
+				box-sizing: border-box;
+				color:#FFFFFF;
+			}
+			.u{
+				top:20%;
+				bottom:60%;
+				left:10%;
+			}
+			.p{
+				top:40%;
+				bottom:40%;
+				left:10%;
+			}
+			.l{
+				top:60%;
+				bottom:20%;
+				left: 10%;
+			}
+			.tips{
+				top:80%;
+				bottom:0%;
+				font-size:13px;
+				color:#AAAAAA;
+				text-align:center;
+			}
+			</body>
+		</style>
+	</head>
+	<body>
+		<div class="login">
+				<div class="title">
+					学生选课系统
+				</div>
+				<div class="u">
+					<input type="text"  class="uname" name="username"/>
+				</div>
+				<div class="p">
+					<input type="text" class="pwd" name="username"/>
+				</div>
+				<div class="l">
+					<button>登录</button>
+				</div>
+				<div class="tips">
+					推荐使用Chrome内核访问系统
+				</div>
+		</div>
+	</body>
+</html>

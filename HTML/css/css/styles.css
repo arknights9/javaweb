@@ -1,0 +1,132 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+body{
+	background-color: #F8F8F8;
+	overflow: hidden;
+}
+.header{
+	height:70px;
+	background-color: #467FE6;
+}
+.header.logo{
+	background: url(img/tust.jpeg);
+}
+.left{
+	width:200px;
+	float:left;
+	background-color: #FFFFFF;
+	position: absolute;
+	left:0px;
+	bottom:0px;
+	top:70px;
+	border-right:1px solid #e1e1e1;
+}
+.left .title{
+	height: 48px;
+	line-height: 48px;
+	background-color: #E9E9E9;
+	border-bottom:1px solid #e1e1e1;
+	font-size: 15px;
+	font-weight: bold;
+	color:#333333;
+	text-align: center;
+}
+.menux p{
+	height: 40px;
+	line-height: 40px;
+	background-color: #F8F8F8;
+	border-bottom: 1px solid #E1E1E1;
+	text-align: center;
+}
+.menux p:hover{
+	background-color: #467FE6;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.menux p:hover i{
+	color:#FFFFFF;
+}
+.menux p i{
+	color:#467FE6;
+}
+.menux p .point{
+	float:right;
+	margin-top: 12px;
+	margin-right: 10px;
+	color:#999999 !important;
+}
+.menux ul{
+	list-style: none;
+	display: none;
+}
+.menux ul li{
+	line-height: 36px;
+	height: 36px;
+	border-bottom: 1px dotted #CCCCCC;
+	box-sizing: border-box;
+}
+.menux ul li i{
+	color: #666666;
+}
+.menux ul li:hover{
+	background-color: #F2F7FF;
+	color: #467FE6;
+}
+.menux ul li a{
+	display: block;
+	padding-left: 50px;
+	color: #666666;
+	text-decoration: none;
+}
+.menux ul li a:hover{
+	color: #467FE6;
+}
+.main{
+	float:right;
+	float:left;
+	position: absolute;
+	left:210px;
+	right:0px;
+	bottom:0px;
+	top:70px;
+}
+
+
+
+
+
+.add{
+	position: absolute;
+	background-color: #FFFFFF;
+	border: 1px solid #f0f0f0;
+	bottom: 0px;
+	top: 10px;
+	right: opx;
+	left: 0px;	
+}
+.tableadd {
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+}
+.tableadd td{
+	height: 35px;
+	padding-left: 2px;
+	color: #666666;
+	}
+.tableadd td input{
+	height: 25ps;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	}
+.tableadd td button{
+	margin-right: 10px;
+	background-color: #467FE6;
+	color: #FFFFFF;
+	padding: 6px 10px;
+	
+}
